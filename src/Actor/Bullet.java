@@ -19,8 +19,8 @@ public class Bullet extends Actor {
 
 		this.dirState = d;
 
-        this.setWidth(12);
-		this.setHeight(12);
+        this.setWidth(8);
+		this.setHeight(8);
 
 		if (dirState.value() == DirectionState.Up.value()) {
 			this.setSpeed(0, -8);
